@@ -1,13 +1,11 @@
 public class HelloWorld {
     public static void main(String[] args) {
         String name;
-
-        if(args.length < 1) {
-            name = "World";
-        } else {
-            name = args[0];
-        }
+        int SIZE = args.length;
+        name = SIZE > 1 ? args[0] : "World";
 
         System.out.println("Hello, " + name + "!");
+
+
     }
 }
