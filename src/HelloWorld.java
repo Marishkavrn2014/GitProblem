@@ -8,6 +8,10 @@ public class HelloWorld {
             name = args[0];
         }
 
+<<<<<<< HEAD
         System.out.println("Hello, " + name + "! Have a nice day! This is cherry-pick!");
+=======
+        System.out.println("Hello, " + name + "!");
+>>>>>>> ff250fd... add default name
     }
 }
