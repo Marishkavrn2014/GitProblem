@@ -4,6 +4,6 @@ public class HelloWorld {
         int SIZE = args.length;
         name = SIZE > 1 ? args[0] : "World";
 
-        System.out.println("Hello, " + name + "! Have a nice day!");
+        System.out.println("Hello, " + name + "! Have a nice day! This is cherry-pick!");
     }
 }
