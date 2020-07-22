@@ -5,6 +5,7 @@ public class HelloWorld {
         name = SIZE > 1 ? args[0] : "World";
 
         System.out.println("Hello, " + name + "!");
+        System.out.println("Stash it");
 
 
     }
